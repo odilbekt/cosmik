@@ -101,19 +101,13 @@ p {
 	opacity: 0.6;
 }
 
-.site-header-top {
+.site-header__top {
 	background-color: #366c49;
 	padding-top: 24px;
 	padding-bottom: 24px;
 }
 
-.site-header-container {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-}
-
-.site-header-container {
+.site-header__container {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -127,7 +121,7 @@ p {
 	transition: all 0.4s ease;
 }
 
-.site-logo-link {
+.site-logo__link {
 	font-weight: 600;
 	font-size: 24px;
 	line-height: 1.4;
@@ -145,7 +139,7 @@ p {
 	margin-right: 32px;
 }
 
-.site-item-link {
+.site-item__link {
 	text-decoration: none;
 	font-weight: 700;
 	font-size: 14px;
@@ -253,7 +247,7 @@ p {
 	margin-bottom: 13px;
 }
 
-.team-item-title {
+.team-item__title {
 	margin-bottom: 1px;
 	font-weight: 500;
 	font-size: 28px;
@@ -273,7 +267,7 @@ p {
 	padding-bottom: 87px;
 }
 
-.india-advantage-title {
+.india-advantage__title {
 	font-weight: 600;
 	font-size: 48px;
 	line-height: 56px;
@@ -282,7 +276,7 @@ p {
 	margin-bottom: 40px;
 }
 
-.india-advantage-text {
+.india-advantage__text {
 	font-weight: 600;
 	font-size: 22px;
 	line-height: 34px;
@@ -290,23 +284,24 @@ p {
 }
 
 .site-find-great {
+	padding-top: 80px;
+	padding-bottom: 80px;
 	background-color: #366c49;
 }
 
-.site-find-great-container {
+.site-find-great__container {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
 
-.site-find-great-info {
+.site-find-great__info {
 	max-width: 1200px;
 }
 
 .site-opportunity {
 	font-weight: 700;
 	font-style: 48px;
-	padding-top: 80px;
 	line-height: 56px;
 	letter-spacing: 0.5%;
 	margin-right: 16px;
@@ -356,13 +351,13 @@ p {
 	padding-bottom: 24px;
 }
 
-.site-footer-name {
+.site-footer__name {
 	display: flex;
 	align-items: start;
 	justify-content: space-between;
 }
 
-.site-footer-team {
+.site-footer__team {
 	font-weight: 600;
 	font-style: 16px;
 	line-height: 24px;
@@ -371,18 +366,18 @@ p {
 	color: #aeaeb2;
 }
 
-.site-footer-link {
+.site-footer__link {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	list-style: none;
 }
 
-.site-footer-link-find:not(:last-child) {
+.site-footer__link-find:not(:last-child) {
 	margin-right: 40px;
 }
 
-.footer-bootom-text {
+.footer-bootom__text {
 	color: #aeaeb2;
 }
 
@@ -391,6 +386,7 @@ p {
 }
 
 .site-link-left {
+	text-decoration: none;
 	font-weight: 600;
 	font-style: 16px;
 	line-height: 24px;
@@ -404,21 +400,22 @@ p {
 	justify-content: space-between;
 }
 
-.site-footer-bottom-lnk {
+.site-footer__bottom-link {
 	display: flex;
 	list-style: none;
 }
 
-.site-footer-bottom-text:not(:last-child) {
+.site-footer__bottom-text:not(:last-child) {
 	margin-right: 10px;
 }
 
-.site-bottom-link-text {
+.site-footer__bottom-link-text {
 	display: flex;
 	list-style: none;
 }
 
-.site-footer-bootom-right-text {
+.site-footer__bootom-right-text {
+	text-decoration: none;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 24px;
